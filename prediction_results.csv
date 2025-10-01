@@ -1,0 +1,6 @@
+image_path,predicted_class,actual_class,confidence,prediction_probability,is_correct
+./DATASET/chest_xray_balanced/test\NORMAL\NORMAL2-IM-0276-0001.jpeg,NORMAL,NORMAL,0.9653951,0.034604926,True
+./DATASET/chest_xray_balanced/test\PNEUMONIA\person46_virus_96.jpeg,PNEUMONIA,PNEUMONIA,0.9768286,0.9768286,True
+./DATASET/chest_xray_balanced/test\PNEUMONIA\person175_bacteria_835.jpeg,PNEUMONIA,PNEUMONIA,0.9997503,0.9997503,True
+./DATASET/chest_xray_balanced/test\PNEUMONIA\person100_bacteria_482.jpeg,PNEUMONIA,PNEUMONIA,0.9989059,0.9989059,True
+./DATASET/chest_xray_balanced/test\NORMAL\NORMAL2-IM-0304-0001.jpeg,NORMAL,NORMAL,0.9728776,0.027122378,True
