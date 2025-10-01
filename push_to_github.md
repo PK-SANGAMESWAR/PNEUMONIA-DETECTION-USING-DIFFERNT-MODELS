@@ -1,28 +1,25 @@
 # GitHub Repository Setup Commands
 
-After creating your repository on GitHub, run these commands in your PowerShell:
+## ✅ COMPLETED STEPS:
+- ✅ Git repository initialized
+- ✅ Files committed locally
+- ✅ Remote origin added: https://github.com/PK-SANGAMESWAR/pneumonia-detection-deep-learning.git
+- ✅ Branch renamed to 'main'
 
-## Replace YOUR_USERNAME with your actual GitHub username
+## 🚀 NEXT STEPS:
+
+### 1. Create GitHub Repository
+Go to: https://github.com/new
+
+**Repository Details:**
+- **Name**: `pneumonia-detection-deep-learning`
+- **Description**: `Deep Learning project for pneumonia detection from chest X-rays using CNN, ResNet50, and DenseNet121 (CheXNet). Best model achieves 85%+ accuracy.`
+- **Visibility**: Public (recommended) or Private
+- **❌ DO NOT** initialize with README, .gitignore, or license
+
+### 2. Push to GitHub
+After creating the repository, run:
 ```powershell
-# Add the remote repository (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/pneumonia-detection-deep-learning.git
-
-# Verify the remote was added correctly
-git remote -v
-
-# Push to GitHub (you'll be prompted for your GitHub credentials)
-git push -u origin master
-```
-
-## Alternative: If you prefer to use main branch instead of master
-```powershell
-# Rename branch to main (optional, modern convention)
-git branch -M main
-
-# Add remote (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/pneumonia-detection-deep-learning.git
-
-# Push to main branch
 git push -u origin main
 ```
 
